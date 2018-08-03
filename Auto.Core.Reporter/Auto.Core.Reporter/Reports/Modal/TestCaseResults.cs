@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auto.Core.Reporter.DataReporter
+namespace Auto.Core.Reporter.Reports.Modal
 {
-    class JSONReporter
+    public class TestCaseResults
     {
     }
 }

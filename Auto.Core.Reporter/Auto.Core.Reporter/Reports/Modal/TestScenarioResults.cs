@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auto.Core.Reporter.FileReporter
+namespace Auto.Core.Reporter.Reports.Modal
 {
-    class SpreadSheetReporter
+    public class TestScenarioResults
     {
     }
 }
