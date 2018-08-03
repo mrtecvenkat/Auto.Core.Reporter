@@ -60,15 +60,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataReporter\JSONReporter.cs" />
-    <Compile Include="DataReporter\XMLReporter.cs" />
-    <Compile Include="FileReporter\DocumentReporter.cs" />
-    <Compile Include="FileReporter\LogReporter.cs" />
-    <Compile Include="FileReporter\SpreadSheetReporter.cs" />
-    <Compile Include="FileReporter\TextFileReporter.cs" />
+    <Compile Include="ReporterService\ITestReporter.cs" />
+    <Compile Include="Reports\JSONReporter.cs" />
+    <Compile Include="Reports\Modal\TestCaseResults.cs" />
+    <Compile Include="Reports\Modal\TestRunResults.cs" />
+    <Compile Include="Reports\Modal\TestScenarioResults.cs" />
+    <Compile Include="Reports\XMLReporter.cs" />
+    <Compile Include="Reports\DocumentReporter.cs" />
+    <Compile Include="Reports\LogReporter.cs" />
+    <Compile Include="Reports\SpreadSheetReporter.cs" />
+    <Compile Include="Reports\TextFileReporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UIReporter\RichUIReporter.cs" />
+    <Compile Include="Reports\RichUIReporter.cs" />
     <Compile Include="UnitTests\BasicReporterTest.cs" />
+    <Compile Include="Util\DateTimeUtil.cs" />
+    <Compile Include="Util\FileAndFolderUtil.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

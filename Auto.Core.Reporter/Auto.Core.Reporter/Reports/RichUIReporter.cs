@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Auto.Core.Reporter.UIReporter
+namespace Auto.Core.Reporter.Reports
 {
     class RichUIReporter
     {
