@@ -8,27 +8,11 @@ namespace Auto.Core.Reporter.Reports.Modal
 {
     public class TestRunResults
     {
-        public string Name
+        public TestAttribute TestRun
         {
             get; set;
         }
-        public string StartDateAndTime
-        {
-            get; set;
-        }
-        public string EndDateAndTime
-        {
-            get; set;
-        }
-        public bool IsSuccess
-        {
-            get; set;
-        }
-        public string ErrorMessage
-        {
-            get; set;
-        }
-        public string SuccessMessage
+        public List<TestScenarioResults> TestScenarios
         {
             get; set;
         }

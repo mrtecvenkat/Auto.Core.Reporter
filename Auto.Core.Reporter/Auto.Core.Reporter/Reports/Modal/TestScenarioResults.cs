@@ -8,5 +8,13 @@ namespace Auto.Core.Reporter.Reports.Modal
 {
     public class TestScenarioResults
     {
+        public TestAttribute TestScenario
+        {
+            get; set;
+        }
+        public List<TestCaseResults> TestCases
+        {
+            get; set;
+        }
     }
 }
